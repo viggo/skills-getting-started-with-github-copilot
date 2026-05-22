@@ -2,9 +2,9 @@ name: Step 1
 
 on:
   push:
-    # Trigger on pushes to any branch except the protected `main` branch
-    branches-ignore:
-      - main
+    # Trigger only when the Step 1 exercise branch is pushed
+    branches:
+      - accelerate-with-copilot
 
 permissions:
   contents: read
